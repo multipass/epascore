@@ -1,12 +1,9 @@
----
-title: "EPA Fuel Economy Score Exploration"
-output: pdf_document
----
+
 ##Coursera Developing Data Product/ Assignment Project 
 ###Yann Kayode, May 2016
 
 ##Background
-The US Environmental Protection Agency(EPA) publishes regularly fuel economy data on all the vehicules authorised in the US. The agency inroduced a change in the way they generate the EPA score in order to take into account various addtitional [factors](http://www.fueleconomy.gov/feg/ratings2008.shtml). The goal of this project is:
+The US Environmental Protection Agency(EPA) publishes regular fuel economy data on all the vehicules authorised in the US. The agency inroduced a change in the way they generate the EPA score in order to take into account various addtitional [factors](http://www.fueleconomy.gov/feg/ratings2008.shtml). The goal of this project is:
 
  - Explore the fuel economy data for the cars that can be used by the general public
  - Run a machine learning prediction algorithm to predict the EPA score of vehicles for a given year. The dataset of the given year will be divided into a training dataset and a validation dataset for this purpose
@@ -14,8 +11,6 @@ The US Environmental Protection Agency(EPA) publishes regularly fuel economy dat
 
 ##Data Quick Exploration
 Quick scatterplot to show the CO2 emissions from variable `co2TailpipeGpm` for different vehicules classes `VClass`, year `year`, and fuel type `fuelType` 
-
-![plot of chunk unnamed-chunk-1](figure/unnamed-chunk-1-1.png)
 
 
 ##EPA Score predictions
